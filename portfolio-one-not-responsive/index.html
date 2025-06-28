@@ -9,13 +9,21 @@
 <body class="font-montserrat">
     
     <!-- header area -->
-    <header class="bg-[#FFD4D0] w-[1440px] pt-10 relative flex flex-col gap-8 ">
+    <header class="bg-[#FFD4D0] w-full pt-10 relative flex flex-col md:gap-2 xl:gap-8 ">
+
+
         <!-- circla design -->
-        <div class="circle absolute left-[438px] -top-[58px] w-[146px] h-[146px] bg-[#FC3314] rounded-full z-1 "></div>
+        <div class="circle absolute bg-[#FC3314] left-[40%] md:left-[438px] -top-[58px] w-[100px] lg:w-[146px]  h-[100px] lg:h-[146px]  rounded-full z-1 "></div>
+
+        <!-- main menu -->
         <nav class="main-menu w-[1192px] mx-auto flex justify-between items-center ">
-            <div class="logo">
-                <img src="./assets/img/Logo.png" alt="">
+
+            <!-- logo -->
+            <div class="logo w-[110px] md:w-[136px] h-[30px] md:h-[36px] ">
+                <img class=" w-full h-full object-cover" src="./assets/img/Logo.png" alt="">
             </div>
+
+            <!-- menu -->
             <div class="main-menu z-10 ">
                 <ul class="flex gap-8">
                     <li><a class="text-lg font-bold leading-[130%]" href="#">About</a></li>

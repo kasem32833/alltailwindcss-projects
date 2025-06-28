@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel perfect portfolio</title>
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+<body class="font-montserrat">
+    
+     <!-- hero area -->
+     <section class="bg-[#FFD4D0] w-full px-4 pt-10 md:px-16 lg:px-[124px] sm:px-8  relative flex flex-col md:gap-2 xl:gap-8   ">
+
+
+        <!-- circla design -->
+        <div class="circle absolute left-[40%]  md:left-[438px] -top-[58px]  w-[100px]  lg:w-[146px] h-[100px]  lg:h-[146px] bg-[#FC3314] rounded-full z-1 "></div>
+       
+        <header class="w-full mx-auto flex justify-between items-center ">
+
+            <!-- logo -->
+            <div class="logo w-[110px] md:w-[136px] h-[30px] md:h-[36px] ">
+                <img class="w-full h-ful object-cover" src="./assets/img/Logo.png" alt="">
+            </div>
+
+            <!--  Menu -->
+            <nav class="main-menu w-[360px] z-10 hidden md:flex  ">
+                <ul class="flex gap-8">
+                    <li><a class="text-lg font-bold leading-[130%]" href="#">About</a></li>
+                    <li><a class="text-lg font-bold leading-[130%]" href="#">Services</a></li>
+                    <li><a class="text-lg font-bold leading-[130%]" href="#">Portfolio</a></li>
+                    <li><a class="text-lg font-bold leading-[130%]" href="#">Blog</a></li>
+                </ul>
+            </nav>
+
+            <!-- header button -->
+            <div class="header-btn flex justify-center items-center bg-[#1F1F1F] w-[100px] md:w-[127px] h-[30px] md:h-[48px] px-4 md:px-6 py-2 md:py-3 
+                font-normal text-xs leading-[130%] md:text-base md:font-bold md:leading-[150%]">
+                <a href="#" class="  text-white ">Let’s Talk</a>
+            </div>
+
+            <!-- hamburger menu -->
+
+            <div class="relative md:hidden">
+            
+                <input type="checkbox"  id="menu-toggle" class="peer hidden">
+
+                <label for="menu-toggle" class="cursor-pointer z-20 relative">
+                    <img src="./assets/img/hamburger.png" alt="menu icon" class="w-5 h-5">
+                </label>
+
+                <!--  Mobile Sliding Menu -->
+
+                <nav class="fixed top-25 right-0 w-full h-screen bg-[#FFD4D0]/90 z-10 translate-x-full peer-checked:translate-x-0 duration-300 ease-in-out">
+                    <ul class="flex flex-col justify-center items-center gap-8 h-full">
+                        <li><a class="text-lg font-bold leading-[130%]" href="#">About</a></li>
+                        <li><a class="text-lg font-bold leading-[130%]" href="#">Services</a></li>
+                        <li><a class="text-lg font-bold leading-[130%]" href="#">Portfolio</a></li>
+                        <li><a class="text-lg font-bold leading-[130%]" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <!-- hero area -->
+        <div class=" mx-auto flex flex-col-reverse md:flex md:flex-row gap-6 md:gap-12">
+
+            <!--  Text Area -->
+            <div class=" text-center md:text-start hero-text pt-4 lg:pt-16  pb-3 lg:pb-20 flex flex-col gap-4 md:gap-8 xl:gap-12 md:w-1/2 2xl:w-[457px]">
+                <div class="hero-details flex flex-col gap-3 xl:gap-4">
+                    <h4 class="text-sm md:text-base xl:text-xl leading-[150%]">UX Designer</h4>
+                    <h2 class="text-4xl xl:text-5xl font-bold leading-[150%]">Hi There, I’m <br> <span class="text-[#FC3314]">John Smith</span> </h2>
+                    <p class=" text-[#1f1f1f] text-sx lg:text-base leading-[150%]">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
+                </div>
+                <div class="hero-btns flex justify-center md:justify-start gap-5 w-[457px] h-[48px] mx-auto md:ml-0">
+                    <a href="#" class="w-[160px] lg:w-[177px] h-[30px] lg:h-[48px] text-sm md:text-base font-normal md:font-bold leading-[150%]   flex justify-center items-center px-4 md:px-8 xl:px-14 py-2 md:py-3 bg-[#1F1F1F] text-white">Hire Me</a>
+                    <a href="#" class=" bg-transparent w-[160px] lg:w-[177px] h-[30px] lg:h-[48px] px-4 md:px-8 xl:px-14 py-2 md:py-3 text-sm md:text-base font-normal md:font-bold leading-[150%] flex justify-center items-center  border border-[#1F1F1F]  ">Portfolio</a>
+                </div>
+            </div>
+
+
+            <!-- Image Area -->
+            <div class="hero-image relative md:w-1/2 mt-[55px]   ">
+                <img class="hero-bg max-w-sm md:w-full md:h-full mx-auto " src="./assets/img/hero-bg.png" alt="">
+                <img class="hero-person absolute bottom-0 md:top-0 left-1/2 -translate-x-1/2 2xl:left-[115px] boject-contain w-[285px] h-[300px] md:h-full md:w-[300px] xl:w-[458px]" src="./assets/img/hero-person.png" alt="">
+            </div>
+        </div> 
+
+    </section>
+
+
+ 
+
+</body>
+</html>
